@@ -112,10 +112,10 @@ patient-assistant/
 │   │   │   ├── routes.py
 │   │   │   └── websockets.py
 │   │   ├── agents/
-│   │   │   ├── orchestrator.py
-│   │   │   ├── triage_agent.py
-│   │   │   ├── knowledge_agent.py
-│   │   │   └── handoff_agent.py
+│   │   │   ├── orchestrator/
+│   │   │   ├── triage_agent/
+│   │   │   ├── knowledge_agent/
+│   │   │   └── handoff_agent/
 │   │   ├── core/
 │   │   │   ├── config.py (Settings & Env parsing)
 │   │   │   └── security.py (JWT/RBAC)
@@ -124,7 +124,7 @@ patient-assistant/
 │   │   │   ├── ehr_client.py
 │   │   │   └── telephony_client.py
 │   │   └── services/
-│   │       ├── db.py (SQLAlchemy Setup)
+│   │       ├── db.py (SQLLite)
 │   │       ├── routing_engine.py
 │   │       └── patient_identification.py
 │   └── tests/
